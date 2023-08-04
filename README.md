@@ -1,27 +1,48 @@
-# TesteColaboradores
+<h1 align="center">
+  Teste Colaboradores
+</h1>
+<p align="center">
+ <a href="#sobre">Sobre</a> •
+ <a href="#executar">Como executar</a> •
+ <a href="#tecnologias">Tecnologias</a>
+</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.3.
+<h2 id="sobre"> 💻 Sobre o projeto</h2>
+<p>Um componente que renderiza sequencias de arrays de Jobs.</p>
 
-## Development server
+<h2 id="funcionalidades"> ⚙️ Funcionalidades </h2>
+<ul>
+  <li>✅ Exibir cada array do conjunto representando uma lista de Jobs a serem executados em sequência.</li>
+  <li>✅ Cada array deve conter jobs que sejam executados em até 8h.</li>
+  <li>✅ Exibir Job cujo respeite a data máxima de conclusão do Job.</li>
+  <li>✅ Todos os Jobs exibidos devem estar dentro do período definido.</li>
+</ul>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+<h2 id="executar"> 🚀 Como executar o projeto</h2>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<h3> Pré-requisitos</h3>
 
-## Build
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[VS Code](https://code.visualstudio.com/Download)
+<br>
+<br>
+Pode seguir a instalação padrão de todos os programas.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Após ter instalado os programas, abra a solução do projeto Teste Colaboradores no VS Code.
+2. Aberto o VS Code com a solução pressione ctrl + ' para abrir o shell do VS Code.
+3. Digite 'ng serve' e pressione Enter.
+4. Caso queira verificar os testes unitários utilize o comando npx cypress open
+5. Após isso caso queira é possível visualizar como funcionar a assertação do teste o passo-a-passo do testes
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<h2 id="tecnologias"> 🛠 Tecnologias</h2>
 
-## Running end-to-end tests
+- **[Typescript](https://www.typescriptlang.org/)**
+- **[Angular](https://angular.io/)**
+- **[Cypress](https://www.cypress.io/)**
+- **[VS Code](https://code.visualstudio.com/)**
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
