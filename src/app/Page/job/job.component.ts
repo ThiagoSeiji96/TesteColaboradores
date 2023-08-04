@@ -109,11 +109,6 @@ export class JobComponent implements OnInit {
           tempoTotalParaExecutar = this.ParseTempoEstimadoTarefa(job.tempoEstimadoTarefa);
         }
       }
-
-      // Cada array do conjunto representa uma lista de Jobs a serem executados em sequência;
-      // Todos os Jobs devem ser executados dentro da janela de execução (data início e fim).
-      // Cada array deve conter jobs que sejam executados em, no máximo, 8h;
-      // Deve ser respeitada a data máxima de conclusão do Job;
     }
     sequenciaDeLista.push([...listaAtual]);
     return sequenciaDeLista;
