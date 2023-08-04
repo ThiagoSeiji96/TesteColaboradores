@@ -1,8 +1,8 @@
 <h2>Conjuntos de Jobs</h2>
-<div *ngFor="let lista of matrizJobsHelper; let i = index">
+<div *ngFor="let lista of matrizJobsHelper; let i = index" id="containerList">
   <h3>Conjunto {{ i + 1 }}</h3>
-  <ul>
-    <li *ngFor="let job of lista">
+  <ul id="listContainer">
+    <li *ngFor="let job of lista" id="listItem">
       ID: {{ job.id }} | Descrição: {{ job.descricao }} | Data Máxima: {{ job.dataMaximaDaEntrega| date:'dd/MM/yyyy' }} | Tempo Estimado: {{ job.tempoEstimadoTarefa }}
     </li>
   </ul>
